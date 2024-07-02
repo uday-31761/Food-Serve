@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    /* background: url('imgs/background.jpg') no-repeat center center fixed;
+    background-size: cover; */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.hero-content h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero-content p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.hero-content button {
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.hero-content button:hover {
+    background: #e64a19;
+}
+
+.featured-dishes {
+    padding: 2rem;
+    text-align: center;
+}
+
+.featured-dishes h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.dishes-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.dish {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.dish img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.dish h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Add to Cart Button Styles */
+.dish input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dish input[type="submit"]:hover {
+    background: #45a049;
+}
+
+/* Added to Cart Message Styles */
+#cart-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #18d8de;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    display: none;
+    z-index: 1000;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+} */
+
+/* About and Contact Page Styles */
+section.about, section.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-content, .contact-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    color: #fff;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+section.about h1, section.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section.about p, section.contact p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}

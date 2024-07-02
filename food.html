@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Serve Landing Page</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="food.html">Food Serve</a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Food Serve</h1>
+            <p>Experience the taste of fresh and delicious food</p>
+            <button onclick="scrollToMenu()">View Menu</button>
+        </div>
+    </section>
+
+    <section class="featured-dishes" id="menu">
+        <h2>Featured Dishes</h2>
+        <div class="dishes-container">
+            <div class="dish">
+                <img src="imgs/img1.webp" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>A deliciously baked flatbread topped with savory tomato sauce, melted cheese, and various toppings.</p>
+                <p>Price : $12</p>
+                <input type="submit" value="Add to Cart" />
+            </div>
+            <div class="dish">
+                <img src="imgs/img2.jpeg" alt="Sandwich">
+                <h3>Sandwich</h3>
+                <p>A versatile meal with layers of fresh ingredients, meats, and spreads between two slices of bread.</p>
+                <p>Price : $5</p>
+                <input type="submit" value="Add to Cart" />
+            </div>
+            <div class="dish">
+                <img src="imgs/img3.jpg" alt="Burger">
+                
+                <h3>Burger</h3>
+                
+                <p>A juicy grilled patty served in a soft bun with fresh lettuce, tomato, cheese, and condiments.</p>
+                <p>Price : $8</p>
+                
+                <input type="submit" value="Add to Cart" />
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us: foodserve@gmail.com</p>
+        <p>&copy; 2024 Food Serve. All rights reserved.</p>
+    </footer>
+
+    <div id="cart-message">Added to Cart</div>
+
+    <script src="food.js"></script>
+</body>
+</html>
